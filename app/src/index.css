@@ -1,0 +1,30 @@
+html {
+  margin: 0;
+  min-width: 300px;
+  background-color: #effafc;
+  animation-name: bgAnimation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+body {
+  margin: 0;
+  font-family: gt-america, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+  min-width: 300px;
+}
+
+@keyframes bgAnimation {
+  0% {
+    background-color: #effafc;
+  }
+  33% {
+    background-color: #fafcef;
+  }
+  66% {
+    background-color: #fceffa;
+  }
+  100% {
+    background-color: #effafc;
+  }
+}
